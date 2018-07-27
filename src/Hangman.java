@@ -85,7 +85,6 @@ public class Hangman {
         else if (difficultyChoice.equalsIgnoreCase("Normal")) {
             guessesLeft = 7;
             wordToGuess = normalWords[rand.nextInt(normalWords.length)];
-            System.out.println(wordToGuess);
             System.out.println("You will have "+ guessesLeft +" guesses before game over, good luck!");
 
 
@@ -93,7 +92,6 @@ public class Hangman {
         else if (difficultyChoice.equalsIgnoreCase("Easy")) {
             guessesLeft = 10;
             wordToGuess = easyWords[rand.nextInt(easyWords.length)];
-            System.out.println(wordToGuess);
             System.out.println("You will have "+ guessesLeft +" guesses before game over, good luck!");
 
         }
